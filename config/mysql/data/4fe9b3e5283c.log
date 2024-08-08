@@ -1,0 +1,542 @@
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-05-07T06:11:28.973126Z	    2 Connect	root@localhost on  using Socket
+2024-05-07T06:11:28.974857Z	    2 Query	select @@version_comment limit 1
+2024-05-07T06:11:33.816710Z	    2 Query	show databases
+2024-05-07T06:11:54.327198Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.328087Z	    3 Init DB	board
+2024-05-07T06:11:54.367002Z	    3 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T06:11:54.382676Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.385068Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.385935Z	    4 Quit	
+2024-05-07T06:11:54.386151Z	    5 Init DB	board
+2024-05-07T06:11:54.387197Z	    5 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T06:11:54.399269Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.399833Z	    5 Quit	
+2024-05-07T06:11:54.399906Z	    6 Init DB	board
+2024-05-07T06:11:54.400810Z	    6 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T06:11:54.404576Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.405142Z	    6 Quit	
+2024-05-07T06:11:54.405184Z	    7 Init DB	board
+2024-05-07T06:11:54.406221Z	    7 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T06:11:54.410305Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:11:54.411150Z	    7 Quit	
+2024-05-07T06:11:54.411213Z	    8 Init DB	board
+2024-05-07T06:11:54.412508Z	    8 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T06:11:54.416507Z	    8 Quit	
+2024-05-07T06:11:54.416588Z	    3 Quit	
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-05-07T06:57:39.561230Z	    2 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.564457Z	    2 Init DB	board
+2024-05-07T06:57:39.564832Z	    2 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T06:57:39.580184Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.582901Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.583689Z	    3 Quit	
+2024-05-07T06:57:39.583843Z	    4 Init DB	board
+2024-05-07T06:57:39.584761Z	    4 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T06:57:39.594833Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.595607Z	    4 Quit	
+2024-05-07T06:57:39.595761Z	    5 Init DB	board
+2024-05-07T06:57:39.597808Z	    5 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T06:57:39.602875Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.603869Z	    5 Quit	
+2024-05-07T06:57:39.603949Z	    6 Init DB	board
+2024-05-07T06:57:39.604974Z	    6 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T06:57:39.610646Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T06:57:39.611426Z	    6 Quit	
+2024-05-07T06:57:39.611530Z	    7 Init DB	board
+2024-05-07T06:57:39.612445Z	    7 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T06:57:39.615515Z	    7 Quit	
+2024-05-07T06:57:39.615690Z	    2 Quit	
+2024-05-07T07:07:04.619887Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T07:07:04.620607Z	    8 Init DB	board
+2024-05-07T07:07:04.621053Z	    8 Query	INSERT INTO boards (name, subject, message, email, image_path, url, text_color, created_at, delete_key) 
+            VALUE ('', '', '', '', '', 'http://', 'gray', '2024-05-07 16:07:04', '')
+2024-05-07T07:07:04.629138Z	    8 Quit	
+2024-05-07T08:17:05.022680Z	    9 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.025331Z	    9 Init DB	board
+2024-05-07T08:17:05.026802Z	    9 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:17:05.037751Z	   10 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.041395Z	   11 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.042458Z	   10 Quit	
+2024-05-07T08:17:05.042565Z	   11 Init DB	board
+2024-05-07T08:17:05.043700Z	   11 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-05-07T08:17:05.052894Z	   12 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.053795Z	   11 Quit	
+2024-05-07T08:17:05.053897Z	   12 Init DB	board
+2024-05-07T08:17:05.054702Z	   12 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:17:05.061356Z	   13 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.062973Z	   12 Quit	
+2024-05-07T08:17:05.063287Z	   13 Init DB	board
+2024-05-07T08:17:05.065197Z	   13 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:17:05.071484Z	   14 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.072475Z	   13 Quit	
+2024-05-07T08:17:05.072656Z	   14 Init DB	board
+2024-05-07T08:17:05.073656Z	   14 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:17:05.078111Z	   15 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:05.079101Z	   14 Quit	
+2024-05-07T08:17:05.079172Z	   15 Init DB	board
+2024-05-07T08:17:05.080713Z	   15 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:17:05.084983Z	   15 Quit	
+2024-05-07T08:17:05.085004Z	    9 Quit	
+2024-05-07T08:17:08.187210Z	   16 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.188225Z	   16 Query	SELECT * FROM boards WHERE id = 154
+2024-05-07T08:17:08.192882Z	   16 Query	DELETE FROM replies WHERE board_id = 154
+2024-05-07T08:17:08.199027Z	   16 Query	DELETE FROM boards WHERE id = 154
+2024-05-07T08:17:08.206404Z	   17 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.207262Z	   16 Quit	
+2024-05-07T08:17:08.207938Z	   17 Quit	
+2024-05-07T08:17:08.570126Z	   18 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.571478Z	   18 Init DB	board
+2024-05-07T08:17:08.572268Z	   18 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:17:08.574814Z	   19 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.576754Z	   20 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.578096Z	   19 Quit	
+2024-05-07T08:17:08.578106Z	   20 Init DB	board
+2024-05-07T08:17:08.579852Z	   20 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:17:08.583716Z	   21 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.584734Z	   20 Quit	
+2024-05-07T08:17:08.584977Z	   21 Init DB	board
+2024-05-07T08:17:08.586022Z	   21 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:17:08.588547Z	   22 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.589610Z	   21 Quit	
+2024-05-07T08:17:08.589619Z	   22 Init DB	board
+2024-05-07T08:17:08.590783Z	   22 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:17:08.592903Z	   23 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:08.593695Z	   22 Quit	
+2024-05-07T08:17:08.593784Z	   23 Init DB	board
+2024-05-07T08:17:08.594786Z	   23 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:17:08.595786Z	   23 Quit	
+2024-05-07T08:17:08.595889Z	   18 Quit	
+2024-05-07T08:17:13.360148Z	   24 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:13.361306Z	   24 Init DB	board
+2024-05-07T08:17:13.362923Z	   24 Query	INSERT INTO boards (name, subject, message, email, image_path, url, text_color, created_at, delete_key) 
+            VALUE ('', '', '', '', '', 'http://', 'gray', '2024-05-07 17:17:13', '')
+2024-05-07T08:17:13.429145Z	   24 Quit	
+2024-05-07T08:17:14.697505Z	   25 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.698413Z	   25 Init DB	board
+2024-05-07T08:17:14.699349Z	   25 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:17:14.701330Z	   26 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.703176Z	   27 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.703754Z	   26 Quit	
+2024-05-07T08:17:14.703830Z	   27 Init DB	board
+2024-05-07T08:17:14.705140Z	   27 Query	SELECT * FROM replies WHERE board_id = 155 ORDER BY board_id DESC
+2024-05-07T08:17:14.707501Z	   28 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.708346Z	   27 Quit	
+2024-05-07T08:17:14.708475Z	   28 Init DB	board
+2024-05-07T08:17:14.709360Z	   28 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:17:14.711548Z	   29 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.712367Z	   28 Quit	
+2024-05-07T08:17:14.712721Z	   29 Init DB	board
+2024-05-07T08:17:14.713688Z	   29 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:17:14.716287Z	   30 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.717935Z	   29 Quit	
+2024-05-07T08:17:14.718107Z	   30 Init DB	board
+2024-05-07T08:17:14.719479Z	   30 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:17:14.722462Z	   31 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:14.723876Z	   30 Quit	
+2024-05-07T08:17:14.724832Z	   31 Init DB	board
+2024-05-07T08:17:14.725582Z	   31 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:17:14.726463Z	   31 Quit	
+2024-05-07T08:17:14.726518Z	   25 Quit	
+2024-05-07T08:17:18.152050Z	   32 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:18.153137Z	   32 Query	SELECT * FROM boards WHERE id = 155
+2024-05-07T08:17:18.154145Z	   32 Query	DELETE FROM replies WHERE board_id = 155
+2024-05-07T08:17:18.155270Z	   32 Query	DELETE FROM boards WHERE id = 155
+2024-05-07T08:17:18.221842Z	   33 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:18.222754Z	   32 Quit	
+2024-05-07T08:17:18.222842Z	   33 Quit	
+2024-05-07T08:17:24.722402Z	   34 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.723444Z	   34 Init DB	board
+2024-05-07T08:17:24.724120Z	   34 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:17:24.725795Z	   35 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.728037Z	   36 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.728888Z	   35 Quit	
+2024-05-07T08:17:24.728970Z	   36 Init DB	board
+2024-05-07T08:17:24.730034Z	   36 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:17:24.733497Z	   37 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.734428Z	   36 Quit	
+2024-05-07T08:17:24.734520Z	   37 Init DB	board
+2024-05-07T08:17:24.735788Z	   37 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:17:24.739990Z	   38 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.740919Z	   37 Quit	
+2024-05-07T08:17:24.741081Z	   38 Init DB	board
+2024-05-07T08:17:24.741982Z	   38 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:17:24.743821Z	   39 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:17:24.744511Z	   38 Quit	
+2024-05-07T08:17:24.744699Z	   39 Init DB	board
+2024-05-07T08:17:24.745733Z	   39 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:17:24.747411Z	   39 Quit	
+2024-05-07T08:17:24.747443Z	   34 Quit	
+2024-05-07T08:18:19.024817Z	   40 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.025982Z	   40 Init DB	board
+2024-05-07T08:18:19.027083Z	   40 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:18:19.029006Z	   41 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.030603Z	   42 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.031535Z	   42 Init DB	board
+2024-05-07T08:18:19.031545Z	   41 Quit	
+2024-05-07T08:18:19.032474Z	   42 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:18:19.037123Z	   43 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.037841Z	   42 Quit	
+2024-05-07T08:18:19.038030Z	   43 Init DB	board
+2024-05-07T08:18:19.038638Z	   43 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:18:19.040689Z	   44 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.041485Z	   43 Quit	
+2024-05-07T08:18:19.041632Z	   44 Init DB	board
+2024-05-07T08:18:19.042271Z	   44 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:18:19.044754Z	   45 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:19.045960Z	   44 Quit	
+2024-05-07T08:18:19.046240Z	   45 Init DB	board
+2024-05-07T08:18:19.047329Z	   45 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:18:19.049210Z	   45 Quit	
+2024-05-07T08:18:19.049317Z	   40 Quit	
+2024-05-07T08:18:20.320231Z	   46 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:20.320668Z	   46 Init DB	board
+2024-05-07T08:18:20.321159Z	   46 Query	INSERT INTO boards (name, subject, message, email, image_path, url, text_color, created_at, delete_key) 
+            VALUE ('', '', '', '', '', 'http://', 'gray', '2024-05-07 17:18:20', '')
+2024-05-07T08:18:20.326177Z	   46 Quit	
+2024-05-07T08:18:21.609550Z	   47 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.610652Z	   47 Init DB	board
+2024-05-07T08:18:21.611649Z	   47 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-07T08:18:21.617012Z	   48 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.619263Z	   49 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.620242Z	   48 Quit	
+2024-05-07T08:18:21.620332Z	   49 Init DB	board
+2024-05-07T08:18:21.621590Z	   49 Query	SELECT * FROM replies WHERE board_id = 156 ORDER BY board_id DESC
+2024-05-07T08:18:21.626282Z	   50 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.627194Z	   49 Quit	
+2024-05-07T08:18:21.627287Z	   50 Init DB	board
+2024-05-07T08:18:21.628736Z	   50 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-07T08:18:21.634392Z	   51 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.636291Z	   50 Quit	
+2024-05-07T08:18:21.636430Z	   51 Init DB	board
+2024-05-07T08:18:21.637605Z	   51 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-07T08:18:21.642782Z	   52 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.643838Z	   51 Quit	
+2024-05-07T08:18:21.643995Z	   52 Init DB	board
+2024-05-07T08:18:21.644871Z	   52 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-07T08:18:21.647569Z	   53 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:21.648670Z	   52 Quit	
+2024-05-07T08:18:21.648754Z	   53 Init DB	board
+2024-05-07T08:18:21.650518Z	   53 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-07T08:18:21.651561Z	   53 Quit	
+2024-05-07T08:18:21.651578Z	   47 Quit	
+2024-05-07T08:18:37.464863Z	   54 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:37.465849Z	   54 Query	SELECT * FROM boards WHERE id = 156
+2024-05-07T08:18:37.468663Z	   54 Query	DELETE FROM replies WHERE board_id = 156
+2024-05-07T08:18:37.469343Z	   54 Query	DELETE FROM boards WHERE id = 156
+2024-05-07T08:18:37.477058Z	   55 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-07T08:18:37.477886Z	   54 Quit	
+2024-05-07T08:18:37.477943Z	   55 Quit	
+2024-05-08T01:12:09.283141Z	   60 Connect	root@172.20.0.3 on db using TCP/IP
+2024-05-08T01:12:09.307972Z	   60 Query	SELECT * FROM players WHERE position ='FW'
+2024-05-08T01:12:09.353682Z	   61 Connect	root@172.20.0.3 on db using TCP/IP
+2024-05-08T01:12:09.354737Z	   60 Quit	
+2024-05-08T01:12:09.355119Z	   61 Init DB	db
+2024-05-08T01:12:09.356832Z	   61 Query	SELECT * FROM players
+2024-05-08T01:12:09.372532Z	   61 Quit	
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-05-23T01:25:36.589390Z	    2 Connect	root@localhost on  using Socket
+2024-05-23T01:25:36.592881Z	    2 Query	select @@version_comment limit 1
+2024-05-23T01:25:41.183272Z	    2 Query	show databases
+2024-05-23T01:25:48.949654Z	    2 Query	SELECT DATABASE()
+2024-05-23T01:25:48.950592Z	    2 Init DB	board
+2024-05-23T01:25:48.952560Z	    2 Query	show databases
+2024-05-23T01:25:48.973142Z	    2 Query	show tables
+2024-05-23T01:25:48.974939Z	    2 Field List	boards 
+2024-05-23T01:25:48.995409Z	    2 Field List	replies 
+2024-05-23T01:25:53.135878Z	    2 Query	show tables
+2024-05-23T01:26:10.453752Z	    2 Query	select * from replies
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-05-24T06:01:23.182988Z	    2 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.193385Z	    2 Init DB	board
+2024-05-24T06:01:23.194294Z	    2 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-24T06:01:23.216173Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.219640Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.220319Z	    3 Quit	
+2024-05-24T06:01:23.220396Z	    4 Init DB	board
+2024-05-24T06:01:23.221342Z	    4 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-24T06:01:23.241624Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.242288Z	    4 Quit	
+2024-05-24T06:01:23.242346Z	    5 Init DB	board
+2024-05-24T06:01:23.243876Z	    5 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-24T06:01:23.249690Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.250660Z	    5 Quit	
+2024-05-24T06:01:23.250740Z	    6 Init DB	board
+2024-05-24T06:01:23.251697Z	    6 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-24T06:01:23.256559Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:01:23.257664Z	    6 Quit	
+2024-05-24T06:01:23.257711Z	    7 Init DB	board
+2024-05-24T06:01:23.259593Z	    7 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-24T06:01:23.263322Z	    7 Quit	
+2024-05-24T06:01:23.263426Z	    2 Quit	
+2024-05-24T06:02:50.237082Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:50.238597Z	    8 Query	SELECT * FROM boards WHERE id = 144
+2024-05-24T06:02:50.243469Z	    8 Quit	
+2024-05-24T06:02:51.585607Z	    9 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:51.586808Z	    9 Query	SELECT * FROM boards WHERE id ='144'
+2024-05-24T06:02:51.592347Z	    9 Quit	
+2024-05-24T06:02:54.518582Z	   10 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:54.519751Z	   10 Query	UPDATE boards SET 
+                name ='安達友菜', 
+                subject = 'テスト1', 
+                message ='HELLO!!', 
+                image_path = '',
+                email = '',
+                url = 'http://',
+                text_color = 'gray',
+                delete_key = ''
+                WHERE id = '144'
+2024-05-24T06:02:54.526512Z	   10 Quit	
+2024-05-24T06:02:55.708654Z	   11 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.709384Z	   11 Init DB	board
+2024-05-24T06:02:55.710136Z	   11 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-24T06:02:55.714321Z	   12 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.716156Z	   13 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.717039Z	   12 Quit	
+2024-05-24T06:02:55.717086Z	   13 Init DB	board
+2024-05-24T06:02:55.718342Z	   13 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-24T06:02:55.723444Z	   14 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.724154Z	   13 Quit	
+2024-05-24T06:02:55.724180Z	   14 Init DB	board
+2024-05-24T06:02:55.725402Z	   14 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-24T06:02:55.731133Z	   15 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.732015Z	   14 Quit	
+2024-05-24T06:02:55.732109Z	   15 Init DB	board
+2024-05-24T06:02:55.732941Z	   15 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-24T06:02:55.738556Z	   16 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:02:55.739361Z	   15 Quit	
+2024-05-24T06:02:55.739474Z	   16 Init DB	board
+2024-05-24T06:02:55.740751Z	   16 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-24T06:02:55.746033Z	   16 Quit	
+2024-05-24T06:02:55.746158Z	   11 Quit	
+2024-05-24T06:34:13.823172Z	   17 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-24T06:34:13.824672Z	   17 Query	SELECT * FROM boards WHERE id='153'
+2024-05-24T06:34:13.829171Z	   17 Quit	
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-05-29T02:01:42.075787Z	    2 Connect	root@localhost on  using Socket
+2024-05-29T02:01:42.077740Z	    2 Query	select @@version_comment limit 1
+2024-05-29T02:01:50.651570Z	    2 Query	show databases
+2024-05-29T02:01:54.505698Z	    2 Query	SELECT DATABASE()
+2024-05-29T02:01:54.507873Z	    2 Init DB	db
+2024-05-29T02:01:54.511702Z	    2 Query	show databases
+2024-05-29T02:01:54.535427Z	    2 Query	show tables
+2024-05-29T02:01:54.538901Z	    2 Field List	countries 
+2024-05-29T02:01:54.564182Z	    2 Field List	goals 
+2024-05-29T02:01:54.584666Z	    2 Field List	goals_tmp 
+2024-05-29T02:01:54.602698Z	    2 Field List	pairings 
+2024-05-29T02:01:54.620139Z	    2 Field List	pairings_tmp 
+2024-05-29T02:01:54.642838Z	    2 Field List	players 
+2024-05-29T02:01:54.661776Z	    2 Field List	players_tmp 
+2024-05-29T02:02:39.941671Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:39.942857Z	    3 Init DB	board
+2024-05-29T02:02:39.943501Z	    3 Query	SELECT * FROM boards ORDER BY id DESC
+2024-05-29T02:02:39.968014Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:39.971672Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:39.972998Z	    4 Quit	
+2024-05-29T02:02:39.973792Z	    5 Init DB	board
+2024-05-29T02:02:39.974620Z	    5 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-05-29T02:02:39.997805Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:39.998255Z	    6 Init DB	board
+2024-05-29T02:02:39.998258Z	    5 Quit	
+2024-05-29T02:02:39.998574Z	    6 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-05-29T02:02:40.002131Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:40.002420Z	    6 Quit	
+2024-05-29T02:02:40.002471Z	    7 Init DB	board
+2024-05-29T02:02:40.002903Z	    7 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-05-29T02:02:40.005682Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-05-29T02:02:40.006167Z	    7 Quit	
+2024-05-29T02:02:40.006242Z	    8 Init DB	board
+2024-05-29T02:02:40.006924Z	    8 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-05-29T02:02:40.017355Z	    8 Quit	
+2024-05-29T02:02:40.017448Z	    3 Quit	
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-07-09T10:04:59.105464Z	    2 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.113723Z	    2 Init DB	board
+2024-07-09T10:04:59.115617Z	    2 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-09T10:04:59.132931Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.135055Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.135479Z	    3 Quit	
+2024-07-09T10:04:59.135543Z	    4 Init DB	board
+2024-07-09T10:04:59.136593Z	    4 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-09T10:04:59.152972Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.153637Z	    4 Quit	
+2024-07-09T10:04:59.153653Z	    5 Init DB	board
+2024-07-09T10:04:59.154341Z	    5 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-09T10:04:59.157407Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.157916Z	    5 Quit	
+2024-07-09T10:04:59.158012Z	    6 Init DB	board
+2024-07-09T10:04:59.158500Z	    6 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-09T10:04:59.161696Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:04:59.162147Z	    6 Quit	
+2024-07-09T10:04:59.162217Z	    7 Init DB	board
+2024-07-09T10:04:59.162660Z	    7 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-09T10:04:59.164337Z	    7 Quit	
+2024-07-09T10:04:59.164380Z	    2 Quit	
+2024-07-09T10:05:29.732058Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:29.733101Z	    8 Init DB	board
+2024-07-09T10:05:29.734386Z	    8 Query	INSERT INTO boards (name, subject, message, email, image_path, url, text_color, created_at, delete_key) 
+            VALUE ('安達友菜', 'テスト1', 'konnnitiha
+', 'aaa@gmai.com', './image_after/earth.png', 'http://aaaa', 'purple', '2024-07-09 19:05:29', '1234')
+2024-07-09T10:05:29.742942Z	    8 Quit	
+2024-07-09T10:05:31.807785Z	    9 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.808972Z	    9 Init DB	board
+2024-07-09T10:05:31.809846Z	    9 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-09T10:05:31.815328Z	   10 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.817440Z	   11 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.818604Z	   10 Quit	
+2024-07-09T10:05:31.818635Z	   11 Init DB	board
+2024-07-09T10:05:31.819789Z	   11 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-07-09T10:05:31.824432Z	   12 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.825088Z	   11 Quit	
+2024-07-09T10:05:31.825263Z	   12 Init DB	board
+2024-07-09T10:05:31.826516Z	   12 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-09T10:05:31.830959Z	   13 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.831727Z	   12 Quit	
+2024-07-09T10:05:31.831868Z	   13 Init DB	board
+2024-07-09T10:05:31.832919Z	   13 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-09T10:05:31.838005Z	   14 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.839089Z	   13 Quit	
+2024-07-09T10:05:31.839131Z	   14 Init DB	board
+2024-07-09T10:05:31.840657Z	   14 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-09T10:05:31.845363Z	   15 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-09T10:05:31.846039Z	   14 Quit	
+2024-07-09T10:05:31.846158Z	   15 Init DB	board
+2024-07-09T10:05:31.847682Z	   15 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-09T10:05:31.851253Z	   15 Quit	
+2024-07-09T10:05:31.851318Z	    9 Quit	
+mysqld, Version: 5.7.44-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-07-10T01:05:30.370937Z	    2 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.376459Z	    2 Init DB	board
+2024-07-10T01:05:30.380417Z	    2 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-10T01:05:30.398147Z	    3 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.400572Z	    4 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.401229Z	    3 Quit	
+2024-07-10T01:05:30.401505Z	    4 Init DB	board
+2024-07-10T01:05:30.403280Z	    4 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-07-10T01:05:30.413098Z	    5 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.414073Z	    4 Quit	
+2024-07-10T01:05:30.414131Z	    5 Init DB	board
+2024-07-10T01:05:30.414897Z	    5 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-10T01:05:30.418355Z	    6 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.419026Z	    5 Quit	
+2024-07-10T01:05:30.419123Z	    6 Init DB	board
+2024-07-10T01:05:30.420369Z	    6 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-10T01:05:30.423919Z	    7 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.424484Z	    6 Quit	
+2024-07-10T01:05:30.424560Z	    7 Init DB	board
+2024-07-10T01:05:30.425172Z	    7 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-10T01:05:30.428141Z	    8 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:30.428793Z	    7 Quit	
+2024-07-10T01:05:30.428839Z	    8 Init DB	board
+2024-07-10T01:05:30.430191Z	    8 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-10T01:05:30.432127Z	    8 Quit	
+2024-07-10T01:05:30.432142Z	    2 Quit	
+2024-07-10T01:05:42.589549Z	    9 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:42.590316Z	    9 Query	SELECT * FROM boards WHERE id = 154
+2024-07-10T01:05:42.593900Z	    9 Query	SELECT * FROM replies WHERE board_id = 154
+2024-07-10T01:05:42.597754Z	    9 Query	SELECT * FROM boards WHERE id = 154
+2024-07-10T01:05:42.598541Z	    9 Quit	
+2024-07-10T01:05:43.983867Z	   10 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:43.984687Z	   10 Query	SELECT * FROM boards WHERE id ='154'
+2024-07-10T01:05:43.989883Z	   10 Quit	
+2024-07-10T01:05:50.007382Z	   11 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.008330Z	   11 Init DB	board
+2024-07-10T01:05:50.009170Z	   11 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-10T01:05:50.014802Z	   12 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.016901Z	   13 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.017629Z	   12 Quit	
+2024-07-10T01:05:50.017790Z	   13 Init DB	board
+2024-07-10T01:05:50.018872Z	   13 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-07-10T01:05:50.023446Z	   14 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.024315Z	   13 Quit	
+2024-07-10T01:05:50.024332Z	   14 Init DB	board
+2024-07-10T01:05:50.025822Z	   14 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-10T01:05:50.031406Z	   15 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.048496Z	   14 Quit	
+2024-07-10T01:05:50.048535Z	   15 Init DB	board
+2024-07-10T01:05:50.054133Z	   15 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-10T01:05:50.067821Z	   16 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.068716Z	   15 Quit	
+2024-07-10T01:05:50.068773Z	   16 Init DB	board
+2024-07-10T01:05:50.076683Z	   16 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-10T01:05:50.086056Z	   17 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:50.087101Z	   16 Quit	
+2024-07-10T01:05:50.087363Z	   17 Init DB	board
+2024-07-10T01:05:50.089023Z	   17 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-10T01:05:50.095260Z	   17 Quit	
+2024-07-10T01:05:50.095404Z	   11 Quit	
+2024-07-10T01:05:58.195100Z	   18 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:05:58.196477Z	   18 Query	SELECT * FROM boards WHERE id='154'
+2024-07-10T01:05:58.198277Z	   18 Quit	
+2024-07-10T01:06:03.278647Z	   19 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.279611Z	   19 Init DB	board
+2024-07-10T01:06:03.280462Z	   19 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-10T01:06:03.285269Z	   20 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.287160Z	   21 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.288058Z	   21 Init DB	board
+2024-07-10T01:06:03.288063Z	   20 Quit	
+2024-07-10T01:06:03.289560Z	   21 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-07-10T01:06:03.292438Z	   22 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.293300Z	   21 Quit	
+2024-07-10T01:06:03.293328Z	   22 Init DB	board
+2024-07-10T01:06:03.294562Z	   22 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-10T01:06:03.296621Z	   23 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.297371Z	   22 Quit	
+2024-07-10T01:06:03.297398Z	   23 Init DB	board
+2024-07-10T01:06:03.299078Z	   23 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-10T01:06:03.301210Z	   24 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.301721Z	   23 Quit	
+2024-07-10T01:06:03.301773Z	   24 Init DB	board
+2024-07-10T01:06:03.302530Z	   24 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-10T01:06:03.303854Z	   25 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:03.304534Z	   24 Quit	
+2024-07-10T01:06:03.304544Z	   25 Init DB	board
+2024-07-10T01:06:03.305202Z	   25 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-10T01:06:03.305887Z	   25 Quit	
+2024-07-10T01:06:03.305928Z	   19 Quit	
+2024-07-10T01:06:07.203379Z	   26 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:07.204216Z	   26 Query	SELECT * FROM boards WHERE id='154'
+2024-07-10T01:06:07.205176Z	   26 Quit	
+2024-07-10T01:06:12.347936Z	   27 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.348823Z	   27 Init DB	board
+2024-07-10T01:06:12.349667Z	   27 Query	SELECT * FROM boards ORDER BY id DESC
+2024-07-10T01:06:12.351312Z	   28 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.353346Z	   29 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.354158Z	   28 Quit	
+2024-07-10T01:06:12.354182Z	   29 Init DB	board
+2024-07-10T01:06:12.355568Z	   29 Query	SELECT * FROM replies WHERE board_id = 154 ORDER BY board_id DESC
+2024-07-10T01:06:12.357922Z	   30 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.358807Z	   30 Init DB	board
+2024-07-10T01:06:12.358808Z	   29 Quit	
+2024-07-10T01:06:12.359470Z	   30 Query	SELECT * FROM replies WHERE board_id = 153 ORDER BY board_id DESC
+2024-07-10T01:06:12.362140Z	   31 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.362951Z	   30 Quit	
+2024-07-10T01:06:12.362999Z	   31 Init DB	board
+2024-07-10T01:06:12.364255Z	   31 Query	SELECT * FROM replies WHERE board_id = 144 ORDER BY board_id DESC
+2024-07-10T01:06:12.366507Z	   32 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.367379Z	   31 Quit	
+2024-07-10T01:06:12.367450Z	   32 Init DB	board
+2024-07-10T01:06:12.368312Z	   32 Query	SELECT * FROM replies WHERE board_id = 142 ORDER BY board_id DESC
+2024-07-10T01:06:12.370001Z	   33 Connect	root@172.20.0.3 on board using TCP/IP
+2024-07-10T01:06:12.370643Z	   32 Quit	
+2024-07-10T01:06:12.370689Z	   33 Init DB	board
+2024-07-10T01:06:12.371815Z	   33 Query	SELECT * FROM replies WHERE board_id = 140 ORDER BY board_id DESC
+2024-07-10T01:06:12.372740Z	   33 Quit	
+2024-07-10T01:06:12.372855Z	   27 Quit	
